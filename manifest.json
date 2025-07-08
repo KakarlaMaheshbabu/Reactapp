@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "c9b3b86e-27fc-44d7-9a8b-1f6b2f3bfc8a",
+  "packageName": "com.kakarlamaheshbabu.reactapp",
+  "name": {
+    "short": "React App",
+    "full": "React + Fluent UI App"
+  },
+  "description": {
+    "short": "React app hosted on GitHub Pages.",
+    "full": "This is a React + Fluent UI app deployed via GitHub Pages and integrated into Microsoft Teams."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#0078d4",
+  "staticTabs": [
+    {
+      "entityId": "reactAppTab",
+      "name": "React App",
+      "contentUrl": "https://kakarlamaheshbabu.github.io/Reactapp",
+      "websiteUrl": "https://kakarlamaheshbabu.github.io/Reactapp",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": ["identity"],
+  "validDomains": [
+    "kakarlamaheshbabu.github.io"
+  ]
+}
